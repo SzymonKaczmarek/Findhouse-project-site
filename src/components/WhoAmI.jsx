@@ -47,7 +47,7 @@ export function WhoAmI() {
                   <li key={whoamiIndex}>
                     <div>
                       {whoami.swap ? (
-                        <figure className='pb-2 flex flex-col sm:flex-row items-center gap-16'>
+                        <figure data-aos="fade-right"  className='pb-2 flex flex-col sm:flex-row items-center gap-16'>
                           <div className='relative'>
                             <Image src={whoami.image} alt="" />
                           </div>
@@ -59,7 +59,7 @@ export function WhoAmI() {
                           </div>
                         </figure>
                       ) : (
-                          <figure className='pb-2 flex flex-col sm:flex-row items-center gap-16'>
+                          <figure data-aos="fade-left" className='pb-2 flex flex-col sm:flex-row items-center gap-16'>
                             <div className='w-full sm:w-1/2'>
                               <h2 className='text-3xl font-bold mb-4'>{whoami.name}<span className="h-9 inline-block border-b-[10px] border-yellow-300">{whoami.underline}</span></h2>
                               <p className='w-full sm:w-2/3'>

@@ -12,7 +12,7 @@ export default function Opinions() {
           </span>
         </h2>
         <section className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-12 overflow-hidden bg-white">
-          <div>
+          <div data-aos="fade-up" data-aos-delay="100">
             <div className="relative flex items-center">
               <div className="mr-3">
                 <img
@@ -22,20 +22,18 @@ export default function Opinions() {
                 />
               </div>
               <div className="pt-2 font-bold text-sm pr-6">
-                HANNA I JACEK
-                <div className="font-normal tekst-xs">Klient - grupa testowa</div>
+                Aleksandra Nowak
+                <div className="font-normal tekst-xs">Nowak Nieruchomości</div>
               </div>
               <Image src={bg} />
             </div>
             <div className="mt-5">
               <span className="text-sm leading-3	">
-                Pragniemy gorąco podziękować pani Katarzynie Jankowskiej za pomoc w kupnie mieszkania. Przeprowadziła nas przez kolejne kroki kupna mieszkania. Wskazywała nam, na co zwracać uwagę podczas jego kupna. Wskazywała plusy i minusy obiektu (komunikacja, deweloper). Wykazała się fachową wiedzą, profesjonalizmem. W każdej porze dnia służyła pomocą, korzystaliśmy z jej wiedzy odnośnie kredytów mieszkaniowych. Doradzała nam na jakich warunkach korzystnie wybrać kredyt mieszkaniowy. To bardzo
-                ważne mieć pomocną dłoń. Dzięki jej pomocy spokojniej podejmowaliśmy kolejne decyzje. Była z nami również podczas przekazywania mieszkania.
-                Jesteśmy zadowoleni ze współpracy z Panią Katarzyną.
+                Bardzo konkretne i rzetelne podejście do sprawy, trafna ocena rynku nieruchomości w okolicach Poznania, genialna wycena i wszystkie formalności załatwiane ekspresowo. Dodatkowo bardzo przyjemny kontakt :) Sfinalizowaliśmy umowę sprzedaży w niecały miesiąc, Pan Jacek właściwie załatwił wszystko sam (poza wizytami w banku gdzie i tak musiałem udać się osobiście) dlatego jestem bardzo zadowolony ze współpracy.
               </span>
             </div>
           </div>{' '}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="600">
             <div className="flex items-center">
               <div className="mr-3">
                 <img
@@ -56,7 +54,7 @@ export default function Opinions() {
               </span>
             </div>
           </div>{' '}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="800">
             <div className="flex items-center">
               <div className="mr-3">
                 <img

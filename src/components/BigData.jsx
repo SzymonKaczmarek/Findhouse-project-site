@@ -39,7 +39,7 @@ export function BigData() {
 
   return (
     <section id="whoami" className="bg-zinc-100 py-2 sm:py-3">
-      <Container>
+      <Container data-aos="fade-left">
         <ul className="mx-auto mb-20 mt-16 max-w-xl lg:mt-20 lg:max-w-none mx-5 sm:mx-0">
           {whoami.map((column, columnIndex) => (
             <li key={columnIndex}>

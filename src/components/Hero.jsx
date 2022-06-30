@@ -18,16 +18,19 @@ return (
         unoptimized
       />
     </div>
-    <p className="mx-auto font-bold mt-6 max-w-2xl inline-block text-2xl tracking-tight text-white border-yellow-400 border-b-8 h-7">
+    <div data-aos="fade-down" data-aos-delay="4000">
+    <p  className="mx-auto font-bold mt-6 max-w-2xl inline-block text-2xl tracking-tight text-white border-yellow-400 border-b-8 h-7">
       Twój czas się liczy.
     </p>
     <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-white sm:text-7xl">
       Poznaj FindHouse
     </h1>
-  <p className='text-xl font-semibold pt-2 pb-8 w-full sm:w-1/4 m-auto'>
+    <p className='text-xl font-semibold pt-2 pb-8 w-full sm:w-1/4 m-auto'>
     Jak uprościć transakcje na rynku nieruchomości?
   </p>
-  <div className='relative mx-auto w-full sm:w-1/2 mb-14'>
+    </div>
+
+    <div data-aos="fade-up" data-aos-delay="4000" data-aos-duration="1000"  className='relative mx-auto w-full sm:w-1/2 mb-14'>
       <div className="block rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400 drop-shadow-2xl">
       <Image src={kartaObiektu} alt="" />
     </div>

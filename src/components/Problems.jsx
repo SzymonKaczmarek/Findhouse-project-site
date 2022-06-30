@@ -22,7 +22,7 @@ export function Problems() {
       </div>
       <Container className="z-20">
         <div className='grid grid-cols-1 sm:grid-cols-2 text-white'>
-          <div className='mb-10 sm:mb-0'>
+          <div data-aos="fade-right" data-aos-delay="4000" className='mb-10 sm:mb-0'>
             <h3 className='font-bold text-2xl pb-6 pl-6'>Problemy klientów</h3>
             <ul className='list-disc px-6'>
               <li className='pb-4 text-yellow-400'>
@@ -37,7 +37,7 @@ export function Problems() {
                 </li>
             </ul>
           </div>
-          <div className='mb-10 sm:mb-0'>
+          <div data-aos="fade-left" data-aos-delay="4000"  className='mb-10 sm:mb-0'>
             <h3 className='font-bold text-2xl pb-6 pl-6'>Problemy biur nieruchomości</h3>
             <ul className='list-disc px-6'>
             <li className='pb-4 text-yellow-400'>

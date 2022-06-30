@@ -31,13 +31,13 @@ export default function YellowSection() {
         <section id="yellow"
           aria-labelledby="yellow-title">
           <figure className="flex flex-col sm:flex-row items-center gap-10 ">
-            <div className="w-full sm:w-3/5">
+            <div data-aos="fade-right"  className="w-full sm:w-3/5">
               <div className="m-0">
                 <Image src={Pytania} alt="" /> 
               </div>
             </div>
 
-            <div className="relative w-full sm:w-2/5 px-5 sm:px-0">
+            <div data-aos="fade-left"  className="relative w-full sm:w-2/5 px-5 sm:px-0">
               <h2 className="mb-4 text-3xl sm:text-5xl text-gray-800 font-bold">
                 Nasza przewaga to
               
