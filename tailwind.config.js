@@ -25,8 +25,8 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
-        display: ['Lexend', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+        display: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '2xl': '40rem',
