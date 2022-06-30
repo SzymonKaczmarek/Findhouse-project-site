@@ -38,11 +38,11 @@ export default function YellowSection() {
             </div>
 
             <div className="relative w-full sm:w-2/5 px-5 sm:px-0">
-              <h2 className="mb-4 text-5xl text-gray-800 font-bold">
+              <h2 className="mb-4 text-3xl sm:text-5xl text-gray-800 font-bold">
                 Nasza przewaga to
-                <div>
+              
                   ANKIETA <span className="font-normal">(USP)</span>
-                </div>
+           
               </h2>
 
               <ul className="marker:text-green ml-6 list-outside list-disc">

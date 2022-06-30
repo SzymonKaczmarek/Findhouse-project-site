@@ -13,7 +13,7 @@ export default function Opinions() {
         </h2>
         <section className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-12 overflow-hidden bg-white">
           <div>
-            <div className="relative flex">
+            <div className="relative flex items-center">
               <div className="mr-3">
                 <img
                   className="h-24 w-24 rounded-full"
@@ -21,9 +21,9 @@ export default function Opinions() {
                   alt=""
                 />
               </div>
-              <div className="pt-2 text-xl font-bold">
-                HANNA I JACEK ŁĘGOWSCY
-                <div className="font-normal">Klient - grupa testowa</div>
+              <div className="pt-2 font-bold text-sm pr-6">
+                HANNA I JACEK
+                <div className="font-normal tekst-xs">Klient - grupa testowa</div>
               </div>
               <Image src={bg} />
             </div>
@@ -36,7 +36,7 @@ export default function Opinions() {
             </div>
           </div>{' '}
           <div>
-            <div className="flex">
+            <div className="flex items-center">
               <div className="mr-3">
                 <img
                   className="h-24 w-24 rounded-full"
@@ -44,9 +44,9 @@ export default function Opinions() {
                   alt=""
                 />
               </div>
-              <div className="pt-2 text-xl font-bold">
+              <div className="pt-2 font-bold text-sm pr-6">
                 ALEKSANDER LACH
-                <div className="font-normal">Klient - grupa testowa</div>
+                <div className="font-normal tekst-xs">Klient - grupa testowa</div>
               </div>
               <Image src={bg} />
             </div>
@@ -57,7 +57,7 @@ export default function Opinions() {
             </div>
           </div>{' '}
           <div>
-            <div className="flex">
+            <div className="flex items-center">
               <div className="mr-3">
                 <img
                   className="h-24 w-24 rounded-full"
@@ -65,9 +65,9 @@ export default function Opinions() {
                   alt=""
                 />
               </div>
-              <div className="pt-2 text-xl font-bold">
+              <div className="pt-2 font-bold text-sm pr-6">
                 MIROSŁAWA GAŁĄZKA
-                <div className="font-normal">Klient - grupa testowa</div>
+                <div className="font-normal tekst-xs">Klient - grupa testowa</div>
               </div>
               <Image src={bg} />
             </div>
