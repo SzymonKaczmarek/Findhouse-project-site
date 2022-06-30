@@ -11,6 +11,10 @@ import { Problems } from '@/components/Problems'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import { WhoAmI } from '@/components/WhoAmI'
+import YellowSection from '@/components/YellowSection'
+import { BigData } from '@/components/BigData'
+import Opinions from '@/components/Opinions'
+import CTA from '@/components/CTA'
 
 export default function Home() {
   return (
@@ -20,7 +24,7 @@ export default function Home() {
         <meta
           name="description"
           content="Naszym celem jest zaspokojenie potrzeb klienta kupującego nieruchomość poprzez maksymalne skrócenie czasu poświęconego na jej poszukiwanie."
-          />
+        />
       </Head>
       <Header />
       <main>
@@ -33,6 +37,10 @@ export default function Home() {
         {/* <Testimonials /> */}
         {/* <Pricing /> */}
         {/* <Faqs /> */}
+        <YellowSection />
+        <BigData />
+        <Opinions />
+        <CTA />
       </main>
       <Footer />
     </>

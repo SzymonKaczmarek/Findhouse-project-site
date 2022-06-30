@@ -61,23 +61,23 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="#features">
+                  <Link href="#whoami">
                     <a className="block w-full" onClick={() => close()}>
                       O nas
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#testimonials">
+                  <Link href="#yellow">
                     <a className="block w-full" onClick={() => close()}>
                       Możliwości
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#pricing">
+                  <Link href="#opinions">
                     <a className="block w-full" onClick={() => close()}>
-                      Technologia
+                      Opinie
                     </a>
                   </Link>
                 </li>
@@ -97,7 +97,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="py-4 sm:py-10">
       <Container>
         <nav className="relative z-50 text-sm">
           <ul className="flex items-center font-semibold">
@@ -112,23 +112,23 @@ export function Header() {
 
             
             <li className="ml-auto hidden md:block">
-              <Link href="#features">
+              <Link href="#whoami">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                   O nas
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#testimonials">
+              <Link href="#yellow">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                   Możliwości
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#pricing">
+              <Link href="#opinions">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Technologia
+                  Opinie
                 </a>
               </Link>
             </li>

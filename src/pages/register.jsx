@@ -9,7 +9,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Sign Up - TaxPal</title>
+        <title>Demo - Findhouse.pl</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col items-start justify-start">
@@ -19,11 +19,10 @@ export default function Login() {
             </a>
           </Link>
           <h2 className="mt-16 text-lg font-semibold text-gray-900">
-            Get started for free.
+            Zapoznaj się z naszym systemem.
           </h2>
           <p className="mt-2 text-sm text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus arcu
-            odio pretium, semper adipiscing vitae nulla.
+            Jeśli niemasz jeszcze dostępu do demo skontaktuj się z nami a zaprezentujemy Tobie ideę naszej platwformy
           </p>
         </div>
         <div className="mt-10">
@@ -31,7 +30,7 @@ export default function Login() {
             <form action="#" method="" className="space-y-7">
               <div className="flex flex-col space-y-7 sm:flex-row sm:space-y-0 sm:space-x-6">
                 <Input
-                  label="First name"
+                  label="Imię"
                   id="first_name"
                   name="first_name"
                   type="text"
@@ -39,7 +38,7 @@ export default function Login() {
                   required
                 />
                 <Input
-                  label="Last name"
+                  label="Nazwisko"
                   id="last_name"
                   name="last_name"
                   type="text"
@@ -48,7 +47,7 @@ export default function Login() {
                 />
               </div>
               <Input
-                label="Email address"
+                label="Email"
                 id="email"
                 name="email"
                 type="email"
@@ -56,7 +55,7 @@ export default function Login() {
                 required
               />
               <Input
-                label="Password"
+                label="Hasło"
                 id="password"
                 name="password"
                 type="password"
@@ -66,9 +65,9 @@ export default function Login() {
               <div className="pt-1">
                 <button
                   type="submit"
-                  className="w-full rounded-full border border-transparent bg-blue-600 py-2 px-4 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  className="w-full rounded-full border border-transparent bg-yellow-400 py-2 px-4 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
                 >
-                  Sign up <span aria-hidden="true">&rarr;</span>
+                  Skontaktuj się <span aria-hidden="true">&rarr;</span>
                 </button>
               </div>
             </form>

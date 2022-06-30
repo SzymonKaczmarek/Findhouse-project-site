@@ -7,8 +7,8 @@ import backgroundImage from '@/images/background-hero.svg'
 
 export function Hero() {
 return (
-<Container className="pt-20 pb-16 text-center lg:pt-12">
-      <div className="absolute top-32 left-1/2 -translate-x-[50%] -translate-y-[43%] -z-10">
+<Container className="p-4  sm:h-auto sm:pt-20 sm:pb-16 text-center lg:pt-12">
+      <div className="absolute w-full overflow-hidden sm:block top-32 left-1/2 -translate-x-[50%] -translate-y-[43%] -z-10">
         <Image
         src={backgroundImage}
         alt=""
@@ -24,19 +24,20 @@ return (
     <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-white sm:text-7xl">
       Poznaj FindHouse
     </h1>
-  <p className='text-xl font-semibold pt-2 pb-8 w-1/4 m-auto'>
+  <p className='text-xl font-semibold pt-2 pb-8 w-full sm:w-1/4 m-auto'>
     Jak uprościć transakcje na rynku nieruchomości?
   </p>
-  <div className='relative mx-auto w-1/2 mb-14'>
+  <div className='relative mx-auto w-full sm:w-1/2 mb-14'>
       <div className="block rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400 drop-shadow-2xl">
       <Image src={kartaObiektu} alt="" />
     </div>
     <div
-      className="block absolute overflow-hidden  -bottom-4 -right-24  rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400">
+      className="hidden sm:block absolute overflow-hidden  -bottom-4 -right-24  rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400">
       <Image src={kartaObiektuMobile} alt="" />
     </div>
   </div>
-  <div className='hidden sm:grid grid-cols-8 gap-0 grid-flow-col grid-rows-2 h-44'>
+
+  <div className='sm:grid grid-cols-8 gap-0 grid-flow-col grid-rows-2 h-auto -mx-4 sm:mx-0 p-4 sm:p-0 sm:h-44 bg-white'>
     <div className=''>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
@@ -65,7 +66,7 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-left'>
+    <div className='text-center sm:text-left'>
       <span className="font-bold">Wygodne centrum </span> pomiędzy biurem nieruchomości a klientem
     </div>
     <div>
@@ -89,7 +90,7 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-left'>
+    <div className='text-center sm:text-left'>
       <span className="font-bold">Pewność doboru nieruchomości</span> pod względem oczekiwań i potrzeb.
     </div>
     <div>
@@ -116,7 +117,7 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-left'>
+    <div className='text-center sm:text-left'>
       Maksymalnie <span className="font-bold">krótki czas realizacji</span> transakcji.</div>
     <div>
       <div className="inline-block mx-auto">
@@ -139,7 +140,7 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-left'>
+    <div className='text-center sm:text-left'>
       <span className="font-bold">Wygoda i bezpieczeństwo</span> dla klienta.</div>
   </div>
 </Container>
