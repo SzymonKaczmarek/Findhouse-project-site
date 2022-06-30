@@ -32,7 +32,7 @@ return (
       <Image src={kartaObiektu} alt="" />
     </div>
     <div
-      className="hidden sm:block absolute overflow-hidden  -bottom-4 -right-24  rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400">
+      className="hidden sm:block absolute overflow-hidden -bottom-4 -right-24 rounded-2xl bg-black py-0.5 px-1 border-2 border-yellow-400">
       <Image src={kartaObiektuMobile} alt="" />
     </div>
   </div>
@@ -67,7 +67,9 @@ return (
     <div>
     </div>
     <div className='text-center sm:text-left'>
+      <div className='sm:-ml-10'>
       <span className="font-bold">Wygodne centrum </span> pomiędzy biurem nieruchomości a klientem
+        </div>
     </div>
     <div>
       <div className="inline-block mx-auto">
@@ -91,7 +93,9 @@ return (
     <div>
     </div>
     <div className='text-center sm:text-left'>
+      <div className='sm:-ml-10'>
       <span className="font-bold">Pewność doboru nieruchomości</span> pod względem oczekiwań i potrzeb.
+    </div>
     </div>
     <div>
       <div className="inline-block mx-auto">
@@ -118,7 +122,9 @@ return (
     <div>
     </div>
     <div className='text-center sm:text-left'>
+      <div className='sm:-ml-10'>
       Maksymalnie <span className="font-bold">krótki czas realizacji</span> transakcji.</div>
+    </div>
     <div>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
@@ -141,7 +147,9 @@ return (
     <div>
     </div>
     <div className='text-center sm:text-left'>
+      <div className='sm:-ml-10'>
       <span className="font-bold">Wygoda i bezpieczeństwo</span> dla klienta.</div>
+  </div>
   </div>
 </Container>
 )

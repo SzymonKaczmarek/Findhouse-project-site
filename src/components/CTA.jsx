@@ -22,7 +22,7 @@ export default function cta() {
                     Chcesz zobaczyć więcej? 
                     </h2>
                   <p className="mt-6 mx-auto max-w-2xl text-lg text-emerald-200">
-                    Jeśli chcesz dowiedzieć się więcej o naszym projekcie, serdecznie zapraszamy do kontaktu!
+                    Jeśli chcesz dowiedzieć się więcej o naszym projekcie, serdecznie zapraszamy do kontaktu. Zostaw nam swój e-mail a odpiszemy z propozycją spotkania.
                     </p>
                 </div>
                 <form action="#" className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
@@ -34,7 +34,7 @@ export default function cta() {
                   </div>
                   <div className="mt-4 sm:mt-0 sm:ml-3">
                     <button type="submit" className="block w-full rounded-full border border-transparent px-5 py-3 bg-yellow-400 text-base font-medium text-black shadow hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-emerald-600 sm:px-10">
-                      Umów się na rozmowę
+                      Zostaw swój e-mail
                     </button>
                   </div>
                 </form>

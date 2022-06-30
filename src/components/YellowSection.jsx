@@ -6,6 +6,7 @@ import Second from '@/images/yellow/Second.png'
 import Third from '@/images/yellow/Third.png'
 import Fourth from '@/images/yellow/Fourth.png'
 import Fifth from '@/images/yellow/Fifth.png'
+import Pytania from '@/images/yellow/pytania.svg'
 
 const whoami = {
   name: 'Nasza przewaga to',
@@ -31,16 +32,8 @@ export default function YellowSection() {
           aria-labelledby="yellow-title">
           <figure className="flex flex-col sm:flex-row items-center gap-10 ">
             <div className="w-full sm:w-3/5">
-              <div className="m-0 grid grid-cols-2 ">
-                <div>
-                  <Image src={First} alt="" />
-                  <Image src={Second} alt="" />
-                </div>
-                <div>
-                  <Image src={Third} alt="" />
-                  <Image src={Fourth} alt="" />
-                  <Image src={Fifth} alt="" />
-                </div>
+              <div className="m-0">
+                <Image src={Pytania} alt="" /> 
               </div>
             </div>
 

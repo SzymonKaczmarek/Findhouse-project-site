@@ -65,7 +65,7 @@ export default function Login() {
               <div className="pt-1">
                 <button
                   type="submit"
-                  className="w-full rounded-full border border-transparent bg-yellow-400 py-2 px-4 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
+                  className="w-full rounded-full border border-transparent bg-yellow-400 py-2 px-4 text-sm font-semibold text-black shadow-sm hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
                 >
                   Skontaktuj się <span aria-hidden="true">&rarr;</span>
                 </button>

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import avatarImage1 from '@/images/avatars/avatar-1.png'
 import BigDataFirst from '@/images/bigdata/BigDataFirst.png'
+import BigDataFirst2 from '@/images/bigdata/BigDataFirst2.png'
 import BigDataSecond from '@/images/bigdata/BigDataSecond.png'
 import BigDataThird from '@/images/bigdata/BigDataThird.png'
 import whoamiScreen from '@/images/whoami/whoami-screen.png'
@@ -57,7 +58,7 @@ export function BigData() {
                             </h2>
                             <p className="w-full sm:w-2/3">{whoami.content}</p>
                           </div>
-                          <div className="relative hidden  w-full sm:w-1/2">
+                          <div className="relative hidden sm:block w-full sm:w-1/2">
                             <div className="relative w-[367px] ">
                               <Image
                                 src={BigDataFirst}

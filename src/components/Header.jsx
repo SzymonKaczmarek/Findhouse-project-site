@@ -113,28 +113,28 @@ export function Header() {
             
             <li className="ml-auto hidden md:block">
               <Link href="#whoami">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <a className="rounded-full py-1 px-2 text-slate-700 hover:bg-yellow-400 hover:text-slate-900">
                   O nas
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
               <Link href="#yellow">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <a className="rounded-full py-1 px-2 text-slate-700 hover:bg-yellow-400 hover:text-slate-900">
                   Możliwości
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
               <Link href="#opinions">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <a className="rounded-full py-1 px-2 text-slate-700 hover:bg-yellow-400 hover:text-slate-900">
                   Opinie
                 </a>
               </Link>
             </li>
             <li className="ml-auto hidden md:block">
               <Link href="/login">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                <a className="rounded-full py-1 px-2 text-slate-700 hover:bg-yellow-400 hover:text-slate-900">
                   Demo
                 </a>
               </Link>

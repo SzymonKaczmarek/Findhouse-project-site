@@ -39,7 +39,7 @@ export default function Login() {
           </Link>
 
           <h2 className="mt-16 text-lg font-semibold text-gray-900">
-           Zalohguj się do wersji demo findhouse.pl
+           Zaloguj się do wersji demo findhouse.pl
           </h2>
           <p className="mt-2 text-sm text-gray-700">
             Jeśli niemasz dostępu do demo skontaktuj się z nami a zaprezentujemy Tobie ideę naszej platwformy
