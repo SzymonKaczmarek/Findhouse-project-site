@@ -46,7 +46,7 @@ export default function Home() {
       </main>
       <Footer />
       <script src="/aos.js" />
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="/aos.css" />
       <script>
           AOS.init();
         </script>
