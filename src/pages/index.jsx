@@ -17,7 +17,9 @@ import Opinions from '@/components/Opinions'
 import CTA from '@/components/CTA'
 
 export default function Home() {
+  
   return (
+  
     <>
       <Head>
         <title>Findhouse - Twój czas się liczy</title>
@@ -43,6 +45,11 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <script>
+          AOS.init();
+        </script>
     </>
   )
 }
