@@ -26,7 +26,8 @@ export default function cta() {
                     Jeśli chcesz dowiedzieć się więcej o naszym projekcie, serdecznie zapraszamy do kontaktu. Zostaw nam swój e-mail a odpiszemy z propozycją spotkania.
                     </p>
                 </div>
-                <form action="#" className="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+                <form className="mt-12 sm:mx-auto sm:max-w-lg sm:flex" name="contact" method="POST" data-netlify="true">
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="min-w-0 flex-1">
                     <label htmlFor="cta-email" className="sr-only">
                       E-mail
