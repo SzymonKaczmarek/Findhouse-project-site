@@ -81,9 +81,18 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="#cta">
+                    <a className="block w-full" onClick={() => close()}>
+                      Zostaw swój email
+                    </a>
+                  </Link>
+                </li>
                 <li className="border-t border-slate-300/40 pt-4">
-                  <Link href="/login">
-                    <a className="block w-full">Sign in</a>
+                  <Link href="/register">
+                    <a className="block w-full">
+                      Zarejestrój się
+                    </a>
                   </Link>
                 </li>
               </Popover.Panel>
@@ -140,7 +149,7 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink href="#cta" color="yellow">
+              <ButtonLink href="/register" color="yellow">
                 <span>
                   Skontaktuj się
                 </span>

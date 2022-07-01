@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container'
-
+import { Input } from '@/components/Input'
 
 
 export default function cta() {
@@ -26,13 +26,22 @@ export default function cta() {
                     Jeśli chcesz dowiedzieć się więcej o naszym projekcie, serdecznie zapraszamy do kontaktu. Zostaw nam swój e-mail a odpiszemy z propozycją spotkania.
                     </p>
                 </div>
-                <form className="mt-12 sm:mx-auto sm:max-w-lg sm:flex" name="contact" method="POST" data-netlify="true">
-                  <input type="hidden" name="form-name" value="contact" />
+                <form className="mt-12 sm:mx-auto sm:max-w-lg sm:flex" name="email" method="POST" data-netlify="true">
+                  <input type="hidden" name="form-name" value="email" />
                   <div className="min-w-0 flex-1">
-                    <label htmlFor="cta-email" className="sr-only">
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      autoComplete="email"
+                      required
+                    />
+
+                    {/* <label htmlFor="cta-email" className="sr-only">
                       E-mail
                     </label>
-                    <input id="cta-email" type="email" className="block w-full border border-transparent rounded-full px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-emerald-600" placeholder="" />
+                    <input id="cta-email" type="email"
+                    placeholder="" /> */}
                   </div>
                   <div className="mt-4 sm:mt-0 sm:ml-3">
                     <button type="submit" className="block w-full rounded-full border border-transparent px-5 py-3 bg-yellow-400 text-base font-medium text-black shadow hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-emerald-600 sm:px-10">
