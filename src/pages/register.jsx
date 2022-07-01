@@ -5,6 +5,8 @@ import { AuthLayout } from '@/components/AuthLayout'
 import { Input } from '@/components/Input'
 import { Logo } from '@/components/Logo'
 
+
+
 export default function Login() {
   return (
     <>
@@ -27,7 +29,8 @@ export default function Login() {
         </div>
         <div className="mt-10">
           <div className="mt-6">
-            <form action="#" method="" className="space-y-7">
+            <form className="space-y-7" name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <div className="flex flex-col space-y-7 sm:flex-row sm:space-y-0 sm:space-x-6">
                 <Input
                   label="Imię"
@@ -54,14 +57,14 @@ export default function Login() {
                 autoComplete="email"
                 required
               />
-              <Input
+              {/* <Input
                 label="Hasło"
                 id="password"
                 name="password"
                 type="password"
                 autoComplete="new-password"
                 required
-              />
+              /> */}
               <div className="pt-1">
                 <button
                   type="submit"

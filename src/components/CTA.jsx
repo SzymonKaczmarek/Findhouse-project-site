@@ -5,9 +5,10 @@ import { Container } from '@/components/Container'
 export default function cta() {
 
   return (
+   
     <div className=" w-screen bg-zinc-100 py-12">
       <Container>
-        <section>
+        <section id="cta">
           <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="relative rounded-2xl px-6 py-10 bg-emerald-600 overflow-hidden shadow-xl sm:px-12 sm:py-20">
               <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">

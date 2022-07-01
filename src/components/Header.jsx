@@ -140,7 +140,7 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-auto md:ml-8">
-              <ButtonLink href="/register" color="yellow">
+              <ButtonLink href="#cta" color="yellow">
                 <span>
                   Skontaktuj się
                 </span>
