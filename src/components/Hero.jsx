@@ -46,8 +46,8 @@ return (
     </div>
   </div>
 
-  <div className='sm:grid grid-cols-8 gap-0 grid-flow-col grid-rows-2 h-auto -mx-4 sm:mx-0 p-4 sm:p-0 sm:h-44 bg-white'>
-    <div className=''>
+    <div className='sm:grid grid-cols-8 gap-0 grid-flow-col grid-rows-2 h-auto -mx-4 sm:mx-0 p-4 sm:p-0 sm:h-44 bg-white'>
+    <div className='sm:pt-0 sm:pb-0 pt-4 pb-2'>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
           <g id="Group_64" data-name="Group 64" transform="translate(-142.021 -983.614)">
@@ -75,12 +75,12 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-center sm:text-left'>
+    <div className='text-center sm:text-left px-10 sm:px-0'>
       <div className='sm:-ml-10'>
       <span className="font-bold">Wygodne centrum </span> pomiędzy biurem nieruchomości a klientem
         </div>
     </div>
-    <div>
+      <div className='sm:pt-0 sm:pb-0 pt-4 pb-2'>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
           <g id="Group_65" data-name="Group 65" transform="translate(-440 -983.614)">
@@ -101,12 +101,12 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-center sm:text-left'>
+      <div className='text-center sm:text-left px-10 sm:px-0'>
       <div className='sm:-ml-10'>
       <span className="font-bold">Pewność doboru nieruchomości</span> pod względem oczekiwań i potrzeb.
     </div>
     </div>
-    <div>
+      <div className='sm:pt-0 sm:pb-0 pt-4 pb-2'>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
           <g id="Group_66" data-name="Group 66" transform="translate(-739.081 -983.614)">
@@ -130,11 +130,11 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-center sm:text-left'>
+      <div className='text-center sm:text-left px-10 sm:px-0'>
       <div className='sm:-ml-10'>
       Maksymalnie <span className="font-bold">krótki czas realizacji</span> transakcji.</div>
     </div>
-    <div>
+      <div className='sm:pt-0 sm:pb-0 pt-4 pb-2'>
       <div className="inline-block mx-auto">
         <svg xmlns="http://www.w3.org/2000/svg" width="71.919" height="71.919" viewBox="0 0 71.919 71.919">
           <g id="Group_67" data-name="Group 67" transform="translate(-1036.081 -983.614)">
@@ -155,7 +155,7 @@ return (
     </div>
     <div>
     </div>
-    <div className='text-center sm:text-left'>
+      <div className='text-center sm:text-left px-10 sm:px-0'>
       <div className='sm:-ml-10'>
       <span className="font-bold">Wygoda i bezpieczeństwo</span> dla klienta.</div>
   </div>

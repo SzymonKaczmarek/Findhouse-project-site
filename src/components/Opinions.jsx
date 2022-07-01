@@ -22,15 +22,15 @@ export default function Opinions() {
                 />
               </div>
               <div className="pt-2 font-bold text-sm pr-6">
-                Aleksandra Nowak
+                Aleksander Nowak
                 <div className="font-normal tekst-xs">Nowak Nieruchomości</div>
               </div>
               <Image src={bg} />
             </div>
             <div className="mt-5">
               <span className="text-sm leading-3	">
-                Bardzo konkretne i rzetelne podejście do sprawy, trafna ocena rynku nieruchomości w okolicach Poznania, genialna wycena i wszystkie formalności załatwiane ekspresowo. Dodatkowo bardzo przyjemny kontakt :) Sfinalizowaliśmy umowę sprzedaży w niecały miesiąc, Pan Jacek właściwie załatwił wszystko sam (poza wizytami w banku gdzie i tak musiałem udać się osobiście) dlatego jestem bardzo zadowolony ze współpracy.
-              </span>
+                Od dłuższego czasu, korzystam ja i moi agenci z formularza klienta kupującego firmy FindHouse i jestem mega zadowolona, moi klienci bardzo chętnie odpowiadają na pytania nawet te osobiste i poprawiło to mocno moją komunikacje z nimi, jak i sprawiło, że nieruchomości im pokazywane są lepiej do nich dopasowana co skróciło czas poszukiwania mieszkania i finalnie mniej klientów tracę i szybciej zarabiam jako biuro nieruchomości.
+                </span>
             </div>
           </div>{' '}
           <div data-aos="fade-up" data-aos-delay="600">
