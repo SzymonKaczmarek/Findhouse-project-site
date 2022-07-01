@@ -26,9 +26,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#whoami">
+                <Link href="#yellow">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Technologia
+                    Możliwości
                   </a>
                 </Link>
               </li>

@@ -46,8 +46,6 @@ export function Problems() {
             </ul>
           </div>
          
-
-         
           <div data-aos="fade-left" data-aos-delay="4000"  className='mb-10 sm:mb-0'>
             <h3 className='font-bold text-2xl pb-6 pl-6'>Problemy biur nieruchomości</h3>
             <ul className='list-disc px-6'>
@@ -69,9 +67,6 @@ export function Problems() {
             </ul>
           </div>
         </div>
-
-
- 
         </Container>
     </section>
   )
