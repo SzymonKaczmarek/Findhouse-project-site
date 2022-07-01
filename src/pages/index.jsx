@@ -1,3 +1,4 @@
+import React, { useEffect } from "react"; 
 import Head from 'next/head'
 
 import { CallToAction } from '@/components/CallToAction'
@@ -16,8 +17,17 @@ import { BigData } from '@/components/BigData'
 import Opinions from '@/components/Opinions'
 import CTA from '@/components/CTA'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 export default function Home() {
-  
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
   
     <>
@@ -32,10 +42,10 @@ export default function Home() {
       <main>
         <Hero />
         <Problems />
+        <WhoAmI />
         {/* <PrimaryFeatures /> */}
         {/* <SecondaryFeatures /> */}
         {/* <CallToAction /> */}
-        <WhoAmI />
         {/* <Testimonials /> */}
         {/* <Pricing /> */}
         {/* <Faqs /> */}
@@ -45,11 +55,13 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
-      <script src="/aos.js" />
+      {/* <script src="/aos.js" />
       <link rel="stylesheet" href="/aos.css" />
+
       <script>
           AOS.init();
-        </script>
+        </script> */}
     </>
   )
+
 }
