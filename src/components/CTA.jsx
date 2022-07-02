@@ -1,11 +1,8 @@
 import { Container } from '@/components/Container'
 import { Input } from '@/components/Input'
 
-
 export default function cta() {
-
   return (
-   
     <div className=" w-screen bg-zinc-100 py-12">
       <Container>
         <section id="cta">
@@ -36,12 +33,6 @@ export default function cta() {
                       autoComplete="email"
                       required
                     />
-
-                    {/* <label htmlFor="cta-email" className="sr-only">
-                      E-mail
-                    </label>
-                    <input id="cta-email" type="email"
-                    placeholder="" /> */}
                   </div>
                   <div className="mt-4 sm:mt-0 sm:ml-3">
                     <button type="submit" className="block w-full rounded-full border border-transparent px-5 py-3 bg-yellow-400 text-base font-medium text-black shadow hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-emerald-600 sm:px-10">
@@ -52,7 +43,6 @@ export default function cta() {
               </div>
             </div>
           </div>
-
         </section>
       </Container>
     </div>

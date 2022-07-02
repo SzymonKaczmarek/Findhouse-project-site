@@ -5,13 +5,7 @@ import kartaObiektu from '@/images/screenshots/findhouse_karta_obiektu.png'
 import kartaObiektuMobile from '@/images/screenshots/findhouse_karta_obiektu_mobile.png'
 import backgroundImage from '@/images/background-hero.svg'
 
-
-
-
 export function Hero() {
-
-
-
 return (
 <Container className="p-4  sm:h-auto sm:pt-20 sm:pb-16 text-center lg:pt-12">
       <div className="absolute w-full overflow-hidden sm:block top-32 left-1/2 -translate-x-[50%] -translate-y-[43%] -z-10">
