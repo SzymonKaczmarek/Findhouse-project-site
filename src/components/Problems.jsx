@@ -21,12 +21,12 @@ export function Problems() {
         />
       </div>
       <div className="absolute hidden sm:block  -bottom-14 left-1/2 -translate-x-[30%] -z-10">
-      <Image
-        src={pipol}
-        alt=""
-        layout="fixed"
-        unoptimized
-      />
+        <Image
+          src={pipol}
+          alt=""
+          layout="fixed"
+          unoptimized
+        />
       </div>
       <Container className="z-20">
         <div className='grid gap-0 sm:gap-36 grid-cols-1 sm:grid-cols-2 text-white'>
@@ -35,39 +35,39 @@ export function Problems() {
             <ul className='list-disc px-6'>
               <li className='pb-4 text-yellow-400'>
                 <span className='text-white'>
-                Zbyt duży wybór ofert uniemożliwiający podjęcie optymalnej decyzji
+                  Zbyt duży wybór ofert uniemożliwiający podjęcie optymalnej decyzji
                 </span>
-                </li>
+              </li>
               <li className='pb-4 text-yellow-400 '>
                 <span className='text-white'>
-                Za dużo nieaktualnych ofert na rynku Skutkiem tego jest poszukiwanie nieruchomości nawet do 12 miesięcy
+                  Za dużo nieaktualnych ofert na rynku Skutkiem tego jest poszukiwanie nieruchomości nawet do 12 miesięcy
                 </span>
-                </li>
+              </li>
             </ul>
           </div>
-         
-          <div data-aos="fade-left" data-aos-delay="4000"  className='mb-10 sm:mb-0'>
+
+          <div data-aos="fade-left" data-aos-delay="4000" className='mb-10 sm:mb-0'>
             <h3 className='font-bold text-2xl pb-6 pl-6'>Problemy biur nieruchomości</h3>
             <ul className='list-disc px-6'>
-            <li className='pb-4 text-yellow-400'>
-              <span className='text-white'>
-              Duża ilość ofert, jakie trzeba pokazać klientowi przed wyborem tej konkretnej odpowiadającej oczekiwaniom i potrzebom
-              </span>
+              <li className='pb-4 text-yellow-400'>
+                <span className='text-white'>
+                  Duża ilość ofert, jakie trzeba pokazać klientowi przed wyborem tej konkretnej odpowiadającej oczekiwaniom i potrzebom
+                </span>
               </li>
-            <li className='pb-4 text-yellow-400'>
-              <span className='text-white'>
-              Za długi czas wyboru nieruchomości przez klienta
-              </span>
+              <li className='pb-4 text-yellow-400'>
+                <span className='text-white'>
+                  Za długi czas wyboru nieruchomości przez klienta
+                </span>
               </li>
-            <li className='pb-4 text-yellow-400'>
-              <span className='text-white'>
-              Pozyskiwanie nieruchomości, czyli kluczowy element pracy biura jest coraz trudniejsze i najbardziej problematyczne dla agentów. (zimne telefony)
-            </span>
-            </li>
+              <li className='pb-4 text-yellow-400'>
+                <span className='text-white'>
+                  Pozyskiwanie nieruchomości, czyli kluczowy element pracy biura jest coraz trudniejsze i najbardziej problematyczne dla agentów. (zimne telefony)
+                </span>
+              </li>
             </ul>
           </div>
         </div>
-        </Container>
+      </Container>
     </section>
   )
 }

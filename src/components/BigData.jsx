@@ -52,7 +52,7 @@ export function BigData() {
                           <div className="w-full sm:w-1/2">
                             <h2 className="mb-4 text-3xl font-bold">
                               <span className="inline-block h-9 border-b-[10px] border-yellow-300">
-                                Big data 
+                                Big data
                               </span> i Machine Learning.
                             </h2>
                             <p className="w-full sm:w-2/3">{whoami.content}</p>

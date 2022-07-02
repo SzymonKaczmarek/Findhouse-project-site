@@ -39,28 +39,19 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main>
+      <main className="block overflow-hidden">
         <Hero />
         <Problems />
         <WhoAmI />
-        {/* <PrimaryFeatures /> */}
-        {/* <SecondaryFeatures /> */}
-        {/* <CallToAction /> */}
-        {/* <Testimonials /> */}
-        {/* <Pricing /> */}
-        {/* <Faqs /> */}
         <YellowSection />
         <BigData />
         <Opinions />
         <CTA />
+
+
+
       </main>
       <Footer />
-      {/* <script src="/aos.js" />
-      <link rel="stylesheet" href="/aos.css" />
-
-      <script>
-          AOS.init();
-        </script> */}
     </>
   )
 
