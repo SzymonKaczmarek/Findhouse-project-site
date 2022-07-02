@@ -9,7 +9,7 @@ const whoami = [
     {
       name: 'Czym jest ',
       underline: 'Findhouse?',
-      content: 'Naszym celem jest zaspokojenie potrzeb klienta kupującego nieruchomość poprzez maksymalne skrócenie czasu poświęconego na jej poszukiwanie.',
+      content: 'FindHouse to wirtualny agent nieruchomości, umieszczony na portalu internetowym czyli jest to usługa w realnym świecie podparta dużą ilości innowacyjnej technologii z wykorzystaniem Big Data i Machine Learning.',
       percent: '60%',
       info: 'Ilość klientów, którzy rezygnują z zakupu ze względu na długi czas poszukiwania nieruchomości.',
       image: whoamiFamily,

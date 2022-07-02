@@ -65,14 +65,14 @@ export function BigData() {
                                 className="z-10 w-full "
                               />
                               <div className=" absolute -right-12 -top-8 z-0 h-48 w-48 overflow-hidden rounded-full bg-yellow-400 p-4 text-center"></div>
-                              <div className="h-15  w-15 absolute  -bottom-8 left-12   z-10">
+                              {/* <div className="h-15  w-15 absolute  -bottom-8 left-12   z-10">
                                 <Image
                                   src={BigDataSecond}
                                   alt=""
                                   height={90}
                                   width={90}
                                 />
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </figure>
